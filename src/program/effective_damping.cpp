@@ -93,8 +93,8 @@ void effective_damping(){
       vout::data();
    }
 
-   // Rotate all spins by 30 degrees from z-axis
-   rotate_spins_around_x_axis(30.0);
+   // Rotate all spins by 10 degrees from z-axis
+   rotate_spins_around_x_axis(10.0);
 
    // reset system temperature
    sim::temperature=temp;
